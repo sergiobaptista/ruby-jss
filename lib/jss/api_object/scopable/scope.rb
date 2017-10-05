@@ -134,6 +134,9 @@ module JSS
 
       ### what type of target is this scope for? Computers or Mobiledevices?
       attr_reader :target_class
+      
+      ### @return [Symbol] the kind of thing we're scopeing, one of {TARGETS_AND_GROUPS}
+      attr_reader :target_key
 
       ### @return [Hash<Array>]
       ###
